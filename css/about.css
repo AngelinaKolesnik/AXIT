@@ -11,7 +11,7 @@
 	text-align: center;
 	width: 370px;
 	height: 100%;
-	margin-top: 71px;
+	margin-top: 110px;
 }
 
 .about__group:nth-child(2) {
@@ -31,7 +31,7 @@
 	line-height: 100px;
 	text-align: center;
 	text-transform: capitalize;
-	margin: 0 0 8px 0;
+	margin: 39px 0 8px 0;
 }
 
 .about-item__description {
