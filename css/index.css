@@ -1,0 +1,74 @@
+@import url('fonts.css');
+@import url('pricing.css');
+@import url('about.css');
+@import url('header.css');
+@import url('social.css');
+@import url('banner_2.css');
+@import url('footer.css');
+
+*{
+	list-style: none;
+	list-style-type: none;
+	box-sizing: border-box;
+	text-decoration: none; 
+}
+
+h1, h2, h3, h4, h5, body {
+	margin: 0;
+}
+
+/* Убрал артефпкт у img  */     /*? что это такое?*/
+img {
+	vertical-align: middle;
+}
+
+.container {
+	max-width: 1170px;
+	padding: 0 15px; 
+	margin: auto;
+}
+
+.title {
+	margin-bottom: 40px;
+	font-size: 36px;
+	line-height: 150px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.title--black {
+	color: #000000;
+}
+
+.title::after {
+	content: "";
+	position: absolute;
+	bottom: 0;   
+	left: 0;      
+	right: 0;     
+	width: 170px;
+	height: 1px;
+	display: block;
+	margin: 0 auto;
+}
+
+.title--black::after {
+	background:  #EC7979;
+}
+
+.subtitle {
+	font-size: 18px;
+	line-height: 21px;
+	margin: 0;
+}
+
+.subtitle--gray {
+	color: #86878B;
+}
+
+.subtitle, .title {
+	font-family: 'Raleway400';
+	font-weight: 400;
+	text-align: center;
+	font-style: normal;
+}
