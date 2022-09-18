@@ -3,8 +3,9 @@
 @import url('about.css');
 @import url('header.css');
 @import url('social.css');
-@import url('banner_2.css');
+@import url('download.css');
 @import url('footer.css');
+@import url('btn.css');
 
 *{
 	list-style: none;
@@ -36,7 +37,7 @@ img {
 	position: relative;
 }
 
-.title--black {
+.title--dark {
 	color: #000000;
 }
 
@@ -52,7 +53,7 @@ img {
 	margin: 0 auto;
 }
 
-.title--black::after {
+.title--dark::after {
 	background:  #EC7979;
 }
 

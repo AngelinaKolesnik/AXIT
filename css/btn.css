@@ -1,0 +1,27 @@
+.btn {
+	padding: 0;
+	width: 370px;
+	height: 58px;
+	font-family: 'OpenSans600';
+	font-weight: 600;
+	font-style: normal;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.btn--light {
+	color: #fff;
+	border: 2px solid #fff;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.btn--light:hover {
+	color: #EC7979;
+	border: 2px solid #EC7979;
+}
+
+.btn--light:active {
+	color: #fff;
+	border: 2px solid #AB4949;
+	background: #ab4949;
+}
