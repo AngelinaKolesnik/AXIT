@@ -6,6 +6,9 @@
 @import url('download.css');
 @import url('footer.css');
 @import url('btn.css');
+@import url('contact.css');
+@import url('review.css');
+@import url('main-screen.css');
 
 *{
 	list-style: none;
@@ -41,16 +44,25 @@ img {
 	color: #000000;
 }
 
-.title::after {
+.title::after, .main-screen__title::after {
 	content: "";
 	position: absolute;
-	bottom: 0;   
+	 
 	left: 0;      
-	right: 0;     
+	right: 0; 
 	width: 170px;
 	height: 1px;
-	display: block;
+	display: block;	
+}
+
+.title::after {
 	margin: 0 auto;
+	bottom: 0;  
+}
+
+.main-screen__title::after {
+	margin: 0;
+	bottom: -55px;  
 }
 
 .title--dark::after {
@@ -63,13 +75,32 @@ img {
 	margin: 0;
 }
 
-.subtitle--gray {
+.subtitle--dark {
 	color: #86878B;
 }
 
 .subtitle, .title {
+	text-align: center;
+}
+
+.subtitle, .title, .main-screen__subtitle, .review__message, .review__information h4  {
 	font-family: 'Raleway400';
 	font-weight: 400;
-	text-align: center;
 	font-style: normal;
+}
+
+.title--light {
+	color: #fff;
+}
+
+.title--light::after {
+	background:  #fff;
+}
+
+.subtitle--light {
+	color: #fff;
+}
+
+.about, .pricing, .download, .contact, .review {
+	padding-top: 50px;
 }
