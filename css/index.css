@@ -1,14 +1,17 @@
 @import url('fonts.css');
-@import url('pricing.css');
-@import url('about.css');
-@import url('header.css');
-@import url('social.css');
-@import url('download.css');
-@import url('footer.css');
 @import url('btn.css');
-@import url('contact.css');
-@import url('review.css');
-@import url('main-screen.css');
+
+@import url('1_header.css');
+@import url('2_main-screen.css');
+@import url('3_social.css');
+@import url('4_features.css');
+@import url('5_about.css');
+@import url('6_pricing.css');
+@import url('7_review.css');
+@import url('8_download.css');
+@import url('9_contact.css');
+@import url('10_footer.css');
+
 
 *{
 	list-style: none;

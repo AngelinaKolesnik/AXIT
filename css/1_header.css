@@ -19,17 +19,18 @@
 
 .nav li {
 	width: 114px;
-	height: 75px;
 	line-height: 75px;
 	text-align: center;
 }
 
 .nav li:hover {
 	background-color: #EC7979;
+	text-transform: uppercase;
 }
 
 .nav li:active {
 	background-color: #AB4949;
+	text-transform: uppercase;
 }
 
 .nav li a {
