@@ -2,15 +2,19 @@
 	padding-bottom: 58px;
 }
 
-.about__columns {
+.columns__wrap {
 	display: flex;
-	column-gap: 30px;
+	margin: 0 -15px;
 }
 
-.about__group {
+.columns {
 	text-align: center;
 	width: 370px;
 	height: 100%;
+	margin: 0 15px;
+}
+
+.about__columns {
 	margin-top: 110px;
 }
 
