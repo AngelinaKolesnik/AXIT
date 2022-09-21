@@ -2,16 +2,12 @@
 	padding-bottom: 64px;
 }
 
-.review ul {
-	margin: 83px 0 0 0;
+.review__columns {
+	margin-top: 83px;	
 	padding: 0;
-	display: flex;
-	column-gap: 30px;
 }
 
 .review__message {
-	width: 370px;
-	height: 180px;
 	background: #E2E2E2;
 	border-radius: 10px;
 	padding: 38px 25px 37px 25px;
@@ -22,7 +18,7 @@
 	border: none;
 }
 
-ul .triangle {
+.triangle {
 	margin: 0 0 0 70px;
 	display: block;
 }
@@ -30,12 +26,12 @@ ul .triangle {
 .review__person {
 	display: flex;
 	margin-top: 46px;
-	column-gap: 30px;
 }
 
 .review__person img {
 	height: 70px;
 	width: 70px;
+	margin-right: 30px;
 }
 
 .review__information h3 {
@@ -51,4 +47,5 @@ ul .triangle {
 .review__information h4 {
 	line-height: 21px;
 	font-size: 18px;
+	text-align: left;
 }
