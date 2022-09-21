@@ -1,0 +1,71 @@
+.features {
+	padding: 99px 0 50px;
+}
+
+.features__tabs-header {
+	display: flex;
+}
+
+.tabs__item {
+	width: 184px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-family: 'OpenSans400';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.tabs__item:first-child {
+	width: 203px;
+	border: 1px solid #C6CBCD;
+	border-bottom: 1px solid #fff;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+	z-index: 10;
+}
+
+.features__tabs-content {
+	border: 1px solid #C6CBCD;
+	display: flex;
+	margin-top: -1px; /*это для того, чтобы скрыть часть бордера, который под "ТАВ 1", но уверена, что сделала неправильно*/
+	justify-content: space-between;
+}
+
+.features__left {
+	width: 570px;
+	margin: 0 30px 54px 100px;
+}
+
+.features__left h3 {
+	font-size: 30px;
+	line-height: 124px;
+	font-family: 'OpenSans700';
+	font-weight: 700;
+	font-style: normal;
+	height: 124px;
+	text-align: left;
+	margin-bottom: 27px;
+}
+
+.features__text {
+	height: 210px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.features__text p {
+	font-size: 18px;
+	line-height: 21px;
+	margin: 0;
+}
+
+.btn--small {
+	margin-top: 27px;
+	width: 270px;
+}

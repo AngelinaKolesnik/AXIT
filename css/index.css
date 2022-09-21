@@ -86,7 +86,7 @@ img {
 	text-align: center;
 }
 
-.subtitle, .title, .main-screen__subtitle, .review__message, .review__information h4  {
+.subtitle, .title, .main-screen__subtitle, .review__message, .review__information h4, .features__text p   {
 	font-family: 'Raleway400';
 	font-weight: 400;
 	font-style: normal;

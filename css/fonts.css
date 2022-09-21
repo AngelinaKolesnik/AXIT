@@ -52,3 +52,14 @@
 	font-weight: 600;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'OpenSans400';
+	src: url("../fonts/OpenSans400/AnyConv.com__OpenSans-Regular.woff2") format("woff2"),
+	url("../fonts/OpenSans400/AnyConv.com__OpenSans-Regular.woff") format("woff"),
+	url("../fonts/OpenSans400/OpenSans-Regular.ttf") format("truetype"),
+	url("../fonts/OpenSans400/AnyConv.com__OpenSans-Regular.eot") format("eot"),
+	url("../fonts/OpenSans400/AnyConv.com__OpenSans-Regular.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
