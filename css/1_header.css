@@ -20,6 +20,7 @@
 .nav li {
 	width: 114px;
 	line-height: 75px;
+	height: 100%;
 	text-align: center;
 }
 
@@ -39,4 +40,6 @@
 	font-weight: 600;
 	font-size: 14px;
 	color: #fff;
+	height: inherit;
+	display: block;
 }
