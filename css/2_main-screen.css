@@ -79,8 +79,8 @@
 	color: rgba(236, 121, 121, 1);
 }
 
-.data__fields--normal input:not(:last-child) {
-	margin-bottom: 52px;
+.data__fields--normal input:not(:first-child) {
+	margin-top: 33px;
 }
 
 .main-form__btn {
@@ -96,4 +96,3 @@
 	color: #fff;
 	border-radius: 0 0 10px 10px;
 }
-

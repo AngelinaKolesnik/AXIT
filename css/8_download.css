@@ -4,7 +4,6 @@
 }
 
 .download {
-	/* display: flex; */
 	justify-content: center;
 	background-size: cover;
 	background-image: url(../img/city.svg);
