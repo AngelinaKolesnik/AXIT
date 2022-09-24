@@ -1,10 +1,16 @@
 @import url('fonts.css');
-@import url('pricing.css');
-@import url('about.css');
-@import url('header.css');
-@import url('social.css');
-@import url('banner_2.css');
-@import url('footer.css');
+@import url('btn.css');
+
+@import url('1_header.css');
+@import url('2_main-screen.css');
+@import url('3_social.css');
+@import url('4_features.css');
+@import url('5_about.css');
+@import url('6_pricing.css');
+@import url('7_review.css');
+@import url('8_download.css');
+@import url('9_contact.css');
+@import url('10_footer.css');
 
 *{
 	list-style: none;
@@ -17,13 +23,13 @@ h1, h2, h3, h4, h5, body {
 	margin: 0;
 }
 
-/* Убрал артефпкт у img  */     /*? что это такое?*/
+/* Убрал артефпкт у img  */   
 img {
 	vertical-align: middle;
 }
 
 .container {
-	max-width: 1170px;
+	max-width: 1200px;
 	padding: 0 15px; 
 	margin: auto;
 }
@@ -36,23 +42,31 @@ img {
 	position: relative;
 }
 
-.title--black {
+.title--dark {
 	color: #000000;
 }
 
-.title::after {
+.title::after, .main-screen__title::after {
 	content: "";
 	position: absolute;
-	bottom: 0;   
 	left: 0;      
-	right: 0;     
+	right: 0; 
 	width: 170px;
 	height: 1px;
-	display: block;
-	margin: 0 auto;
+	display: block;	
 }
 
-.title--black::after {
+.title::after {
+	margin: 0 auto;
+	bottom: 0;  
+}
+
+.main-screen__title::after {
+	margin: 0;
+	bottom: -55px;  
+}
+
+.title--dark::after {
 	background:  #EC7979;
 }
 
@@ -62,13 +76,32 @@ img {
 	margin: 0;
 }
 
-.subtitle--gray {
+.subtitle--dark {
 	color: #86878B;
 }
 
 .subtitle, .title {
+	text-align: center;
+}
+
+.subtitle, .title, .main-screen__subtitle, .review__message, .review__information h4, .features__text p   {
 	font-family: 'Raleway400';
 	font-weight: 400;
-	text-align: center;
 	font-style: normal;
+}
+
+.title--light {
+	color: #fff;
+}
+
+.title--light::after {
+	background:  #fff;
+}
+
+.subtitle--light {
+	color: #fff;
+}
+
+.about, .pricing, .download, .contact, .review {
+	padding-top: 50px;
 }

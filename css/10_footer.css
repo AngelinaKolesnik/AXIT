@@ -6,6 +6,8 @@
 .footer__links {
 	justify-content: center;
 	margin: auto;
+	column-gap: 33px;
+	width: 100%;
 }
 
 .footer__text {
