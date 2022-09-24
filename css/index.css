@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, body {
 	margin: 0;
 }
 
-/* Убрал артефпкт у img  */     /*? что это такое?*/
+/* Убрал артефпкт у img  */   
 img {
 	vertical-align: middle;
 }
@@ -50,7 +50,6 @@ img {
 .title::after, .main-screen__title::after {
 	content: "";
 	position: absolute;
-	 
 	left: 0;      
 	right: 0; 
 	width: 170px;

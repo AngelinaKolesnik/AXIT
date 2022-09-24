@@ -1,0 +1,68 @@
+.contact {
+	padding-bottom: 50px;
+}
+
+.data__wrap {
+	display: flex;
+	margin: 89px 0 50px;
+}
+
+.data__fields {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.data__fields--long {
+	width: 48.803%;
+	height: 214px;
+	margin-right: 30px;
+}
+
+.data__fields input {
+	width: 100%;
+	height: 19px;
+	padding: 0;
+	margin-bottom: 19px;
+	border: 0;
+}
+
+.data__fields input {
+	position: relative;
+}
+
+.data__fields input::after {
+	content: "";
+	position: absolute;
+	left: 0;      
+	right: 0; 
+	bottom: -3px;
+	width: 100%;
+	height: 1px;
+	display: block;
+	background: #BDBDBD;
+	margin: 0;
+}
+
+textarea {
+	width: 48.632%;
+	height: 214px;
+	resize: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+textarea::placeholder, .data__fields input::placeholder {
+	font-family: 'OpenSans400';
+	font-weight: 400;
+	font-style: normal;
+	color: #BDBDBD;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+textarea:focus, .data__fields input:focus {
+	outline: 0;
+	outline-offset: 0;
+}

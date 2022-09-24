@@ -11,6 +11,7 @@
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center;
+	padding-bottom: 50px;
 }
 
 .download::before {
@@ -24,7 +25,8 @@
 }
 
 .btn--center {
-	margin: 0 400px 50px;
+	margin: 0 auto;
+	display: block;
 }
 
 .download__btn {
