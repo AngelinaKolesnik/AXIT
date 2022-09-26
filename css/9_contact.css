@@ -21,36 +21,19 @@
 
 .data__fields input {
 	width: 100%;
-	height: 19px;
-	padding: 0;
-	margin-bottom: 19px;
+	padding: 0 0 16px;
+	margin-bottom: 3px;
 	border: 0;
-}
-
-.data__fields input {
-	position: relative;
-}
-
-.data__fields input::after { /*я пыталась таким образом сделать линию под полями ввода (как под названием секции), но че-то не получилось*/
-	content: "";
-	position: absolute;
-	left: 0;      
-	right: 0; 
-	bottom: -3px;
-	width: 100%;
-	height: 1px;
-	display: block;
-	background: #BDBDBD;
-	margin: 0;
+	border-bottom: 1px solid #BDBDBD;
 }
 
 textarea {
 	width: 48.632%;
-	height: 214px;
+	height: 211px;
 	resize: none;
-	padding: 0;
-	margin: 0;
+	margin-bottom: 3px;
 	border: 0;
+	border-bottom: 1px solid #BDBDBD;
 }
 
 textarea::placeholder, .data__fields input::placeholder {
