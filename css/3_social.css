@@ -33,14 +33,16 @@
 
 .social-list {
 	display: flex;
+	margin: 0 auto;
 }
 
-.social-list--big {
-	justify-content: space-between;
+.social-list--big {	
+	margin: 0 -15px;
 	width: 670px;
 }
 
 .social-list--big img {
-	width: 70px;
+	width: 100px;
 	height: 70px;
+	padding: 0 15px;
 }

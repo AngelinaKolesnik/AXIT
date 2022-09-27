@@ -57,9 +57,7 @@
 	width: 470px;
 	height: 100%;
 	border-radius: 10px;
-	padding: 0 50px;
 	background: #fff;
-
 }
 
 .main-screen__form h2 {
@@ -83,10 +81,14 @@
 	margin-top: 33px;
 }
 
+.data__fields--normal input {
+	margin: 0 50px 3px;
+}
+
 .main-form__btn {
-	margin: 75px -50px 0;
+	margin: 75px 0 0;
 	padding: 0;
-	width: 470px;
+	width: 100%;
 	height: 60px;
 	font-family: 'OpenSans600';
 	font-weight: 600;

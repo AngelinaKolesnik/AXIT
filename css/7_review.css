@@ -34,7 +34,7 @@
 	margin-right: 30px;
 }
 
-.review__information h3 {
+.review__name {
 	font-family: 'OpenSans700';
 	font-style: normal;
 	font-weight: 700;
@@ -44,7 +44,7 @@
 	margin: 0 0 15px 0;
 }
 
-.review__information h4 {
+.review__position {
 	line-height: 21px;
 	font-size: 18px;
 	text-align: left;
