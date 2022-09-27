@@ -61,11 +61,6 @@ img {
 	bottom: 0;  
 }
 
-.main-screen__title::after {
-	margin: 0;
-	bottom: -55px;  
-}
-
 .title--dark::after {
 	background:  #EC7979;
 }
