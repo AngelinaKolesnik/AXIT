@@ -44,6 +44,11 @@
 	margin: 73px 0 97px 0;
 }
 
+.main-screen__title::after {
+	margin: 0;
+	bottom: -55px;  
+}
+
 .main-screen__subtitle {
 	margin-bottom: 42px;
 	text-align: left;
@@ -52,14 +57,16 @@
 	line-height: 21px;
 }
 
+.main-screen__btn {
+	width: 270px;
+}
+
 .main-screen__form {
 	margin-top: 208px;
 	width: 470px;
 	height: 100%;
 	border-radius: 10px;
-	padding: 0 50px;
 	background: #fff;
-
 }
 
 .main-screen__form h2 {
@@ -83,10 +90,14 @@
 	margin-top: 33px;
 }
 
+.data__fields--normal input {
+	margin: 0 50px 3px;
+}
+
 .main-form__btn {
-	margin: 75px -50px 0;
+	margin: 75px 0 0;
 	padding: 0;
-	width: 470px;
+	width: 100%;
 	height: 60px;
 	font-family: 'OpenSans600';
 	font-weight: 600;
@@ -95,4 +106,115 @@
 	cursor: pointer;
 	color: #fff;
 	border-radius: 0 0 10px 10px;
+}
+
+@media (max-width: 1200px) {
+
+	.main-screen {
+		padding: 0 4px 132px 99px;
+	}
+
+	.main-screen__text {
+		margin-top: 154px;
+		width: 482px;
+	}
+
+	.main-screen__text img {
+		width: 115px;
+		height: 41px;
+	}
+
+	.main-screen h1 {
+		font-size: 36px;
+		line-height: 42px;
+		margin: 54px 36px 72px 0;
+	}
+
+	.main-screen__title::after {
+		bottom: -31px;  
+		width: 115px;
+	}
+
+	.main-screen__subtitle {
+		margin-bottom: 31px;
+		width: 183px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.main-screen__btn {
+		width: 183px;
+		height: 50px;
+	}
+
+	.main-screen__form {
+		margin-top: 137px;
+		width: 398px;
+	}
+	
+	.main-screen__form h2 {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.main-screen {
+		padding: 84px 0 50px;
+	}
+
+	.main-screen__wrap {
+		display: block;
+	}
+
+	.main-screen__text {
+		margin-top: 0;
+		width: 100%;
+	}
+
+	.main-screen__text img {
+		display: none;
+	}
+
+	.main-screen h1 {
+		margin: 0 0 86px;
+		text-align: center;
+	}
+
+	.main-screen__title::after {
+		bottom: -42px;  
+		width: 134px;
+		margin: 0 auto;
+	}
+
+	.main-screen__subtitle {
+		margin-bottom: 42px;
+		width: 100%;
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+	}
+
+	.main-screen__btn {
+		width: 100%;
+		height: 50px;
+	}
+
+	.main-screen__form {
+		margin-top: 56px;
+		width: 100%;
+	}
+	
+	.main-screen__form h2 {
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+
+	.data__fields--normal input {
+		margin: 0 20px 3px 28px;
+	}
+
+	.main-form__btn {
+		margin: 51px 0 0;
+	}
 }

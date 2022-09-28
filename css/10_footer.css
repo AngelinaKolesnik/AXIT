@@ -3,11 +3,15 @@
 	background-color: #000;
 }
 
-.footer__links {
+.social-list--small {
 	justify-content: center;
-	margin: auto;
-	column-gap: 33px;
 	width: 100%;
+}
+
+.social-list--small img {
+	width: 87px;
+	height: 53px;
+	padding: 0 17px;
 }
 
 .footer__text {
