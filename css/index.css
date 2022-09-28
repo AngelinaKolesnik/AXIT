@@ -29,8 +29,8 @@ img {
 }
 
 .container {
-	max-width: 1200px;
-	padding: 0 15px; 
+	max-width: 1202px;
+	padding: 0 16px; 
 	margin: auto;
 }
 
@@ -99,4 +99,56 @@ img {
 
 .about, .pricing, .download, .contact, .review {
 	padding-top: 50px;
+}
+
+@media (max-width: 1200px) {
+
+	.container {
+		max-width: 1024px;
+	}
+
+	.title {
+		margin-bottom: 32px;
+		font-size: 24px;
+		line-height: 120px;
+	}
+
+	.title::after, .main-screen__title::after {
+		width: 142px;	
+	}
+
+	.subtitle {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.container {
+		max-width: 720px;
+	}
+
+	.about, .pricing, .download, .contact, .review {
+		padding-top: 0px;
+	}
+
+	.title {
+		margin-bottom: 25px;
+		font-size: 18px;
+		line-height: 21px;
+		height: 120px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.title::after, .main-screen__title::after {
+		width: 134px;	
+	}
+
+	.subtitle {
+		font-size: 13px;
+		line-height: 15px;
+	}
 }

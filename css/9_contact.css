@@ -21,8 +21,9 @@
 
 .data__fields input {
 	width: 100%;
-	padding: 0 0 16px;
+	padding: 0 0 15px;
 	margin-bottom: 3px;
+	line-height: 19px;
 	border: 0;
 	border-bottom: 1px solid #BDBDBD;
 }
@@ -42,7 +43,6 @@ textarea::placeholder, .data__fields input::placeholder {
 	font-style: normal;
 	color: #BDBDBD;
 	font-size: 14px;
-	line-height: 19px;
 }
 
 textarea:focus, .data__fields input:focus {

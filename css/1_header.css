@@ -43,3 +43,10 @@
 	height: inherit;
 	display: block;
 }
+
+@media (max-width: 1200px) {
+
+	.header {
+		padding-left: 100px;
+	}
+}
