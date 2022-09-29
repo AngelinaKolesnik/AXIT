@@ -49,3 +49,37 @@ textarea:focus, .data__fields input:focus {
 	outline: 0;
 	outline-offset: 0;
 }
+
+@media (max-width: 1200px) {
+	
+	.data__wrap {
+		margin: 72px 0 50px;
+	}
+	
+	.data__fields--long {
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.contact {
+		padding-bottom: 40px;
+	}
+	
+	.data__wrap {
+		display: block;
+		margin: 64px 0 50px;
+	}
+	
+	.data__fields--long {
+		width: 100%;
+		margin-right: 0px;
+	}
+	
+	textarea {
+		margin-top: 50px;
+		width: 100%;
+		height: 200px;
+	}
+}

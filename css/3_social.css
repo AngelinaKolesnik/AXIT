@@ -99,6 +99,8 @@
 	.social-list--big {	
 		margin: 0 -9px;
 		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 
 	.social-list--big img {

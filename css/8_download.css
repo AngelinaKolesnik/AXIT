@@ -31,3 +31,28 @@
 .download__btn {
 	margin-top: 73px;
 }
+
+@media (max-width: 1200px) {
+	
+	.download__btn {
+		margin-top: 32px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.download {
+		background-image: url(../img/city_mobile.png);
+		padding-bottom: 58px;
+	}
+	
+	.btn--center {
+		margin: 0 auto;
+		display: block;
+	}
+	
+	.download__btn {
+		margin-top: 66px;
+	}
+
+}
