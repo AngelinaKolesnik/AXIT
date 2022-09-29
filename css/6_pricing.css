@@ -16,7 +16,7 @@
 
 .pricing-card__title, .pricing-card__cost, .pricing-card__subtitle {
 	background: #333333;
-	border: 2px solid #F5F5F5;
+	border: 1px solid #F5F5F5;
 	font-style: normal;	
 	text-align: center;
 	margin: 0;
@@ -33,7 +33,7 @@
 }
 
 .pricing-card__cost {
-	border-right: 2px solid #F5F5F5;
+	border-right: 1px solid #F5F5F5;
 	height: 100px;
 	font-family: 'Raleway700';
 	font-weight: 700;
@@ -67,10 +67,60 @@
 }
 
 .pricing-card__list li{
-	border: 2px solid #F5F5F5;
+	border: 1px solid #F5F5F5;
 	background: #FFFFFF;
 	margin: 0;
 	padding-top: 14px;
 	padding-bottom: 13px;
 	height: 50px;
+}
+
+@media (max-width: 1200px) {
+
+	.pricing__columns {
+		margin-top: 50px;
+	}
+	
+	.pricing__columns:hover {
+		transform: translateY(-18px); 
+	}
+	
+	.pricing-card__title {
+		height: 53px;
+		line-height: 53px;
+	}
+	
+	.pricing-card__cost {
+		height: 89px;
+		line-height: 89px;
+	}
+	
+	.pricing-card__subtitle {
+		height: 44px;
+		line-height: 44px;
+	}
+	
+	.pricing-card__list li{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		height: 44px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.pricing {
+		padding-bottom: 26px;
+	}
+
+	.pricing__columns {
+		margin-top: 24px;
+	}
+
+	.pricing__columns:not(:last-child) {
+		margin-bottom: 27px;
+	}
 }
