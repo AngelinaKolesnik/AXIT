@@ -44,7 +44,7 @@
 	display: block;
 }
 
-.burger {
+.header__btn, .header__btn--open {
 	display: none;
 }
 
@@ -74,10 +74,33 @@
 		display: none;
 	}
 
-	.burger {
-		display: flex;
-		margin-right: 19px;
+	.header__btn {
+		height: 19px;
 		width: 24px;
-		height: 18px;
+		margin-right: 19px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		transition: .3s;
+		position: relative;
+	}
+	
+	.header__btn div {
+		height: 3px;
+		width: 100%;
+		background: #fff;
+	}
+	
+	.header__btn--open div:nth-child(2) {
+		display: none;
+	}
+
+	.header__btn--open div:nth-child(1) {
+		transform: rotate(45deg);
+	}
+
+	.header__btn--open div:nth-child(3) {
+		transform: rotate(-45deg);
+		position: absolute;
 	}
 }
